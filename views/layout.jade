@@ -9,13 +9,14 @@ html
     link(rel='stylesheet', href='/stylesheets/layout.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
-    .container.navbar.navbar-top
-      .ten.columns.offset-by-two
-        ul
-          li 
-            a(href='/')= title
-          li 
-            a(href='http://github.com/evbogue/bitters') Git
+    .navbar.navbar-top
+      .container
+        .ten.columns
+          ul
+            li 
+              a(href='/')= title
+            li 
+              a(href='http://github.com/evbogue/bitters') Git
     .container
       .ten.columns 
         block content
