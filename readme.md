@@ -1,7 +1,7 @@
 Bitters
 =======
 
-Bitters is a simple-as-possible blogging platform built with Node.js, in the spirit of Livejournal.
+Bitters is a simple-as-possible blogging platform built with Node.js, in the style of Livejournal.
 
 > Because if you were angsty in 1999, you're bitter now.
 
@@ -56,3 +56,6 @@ The best way to support Bitters development is to buy the development team tacos
 
 Your contribution of $99 supports local Oakland taco trucks for one week.
 Your contribution of $299 supports local Oakland taquerias for one month.
+
++ **Current mood:** Bitter
++ **Current location:** The woods
