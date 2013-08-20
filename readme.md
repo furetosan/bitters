@@ -9,16 +9,18 @@ Bitters uses Express, Jade, Stylus, and Embittered to render a beautiful self-ho
 
 Bitters came into existence because of increasing frustration with bloated blogging software and dishonest centralized publishing services. Bitters aims to liberate the user by giving them all the tools they need to deploy their own modular blogging platform using Node.js.
 
-### Quick install using Node.js
+### Quick install
 
-First, install [Node.js](http://nodejs.org/)
+You're looking at Bitters right now. To get your own Bitters, 
+
+**1** install [Node.js](http://nodejs.org/)
 
 	$ git clone https://github.com/evbogue/bitters.git
 	$ cd bitters
 	$ npm install
 	$ node app.js
 
-Navigate to [http://localhost:7777/](http://localhost:7777/) to see your bitters.
+**2** navigate to [http://localhost:7777/](http://localhost:7777/) to see your bitters.
 
 ### Editing Bitters
 
