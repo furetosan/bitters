@@ -15,12 +15,14 @@ You're looking at Bitters right now. To get your own Bitters,
 
 **1** install [Node.js](http://nodejs.org/)
 
+**2** type these commands into your terminal
+
 	$ git clone https://github.com/evbogue/bitters.git
 	$ cd bitters
 	$ npm install
 	$ node app.js
 
-**2** navigate to [http://localhost:7777/](http://localhost:7777/) to see your bitters.
+**3** navigate to [http://localhost:7777/](http://localhost:7777/) to see your bitters
 
 ### Editing Bitters
 
