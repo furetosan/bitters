@@ -1,9 +1,17 @@
 Bitters
 =======
 
-Bitters is a simple-as-possible real-time Node.js website built using Express, Jade, Stylus, and Skeleton.
+Bitters is a simple-as-possible blogging platform built in the spirit of Livejournal.
 
-### Installation
+> Because if you were angsty in 1999, you're bitter now.
+
+Bitters uses Express, Jade, Stylus, and Embittered to render a beautiful self-hosted opensource blogging platform for you (and in the future, your friends.)
+
+Bitters came into existence because of increasing frustration levels with blogging platforms and centralized publishing services. Bitters aims to liberate by giving them all of the tools they need to deploy their own blogging platform.
+
+### Quick install using Node.js
+
+First, install [Node.js](http://nodejs.org/)
 
 	$ git clone https://github.com/evbogue/bitters.git
 	$ cd bitters
@@ -12,8 +20,14 @@ Bitters is a simple-as-possible real-time Node.js website built using Express, J
 
 Navigate to [http://localhost:7777/](http://localhost:7777/) to see your bitters.
 
-Edit the content.md file to change the contents of the main content frame. 
+### Editing Bitters
 
-Edit the /views/sidebar.jade file to edit the contents of the sidebar.
+Right now, Bitters uses Git to maintain content
 
-See [bitters.evbogue.com](http://bitters.evbogue.com/) for more information and support options.
+Edit the readme.md file to change the contents of the main content frame. 
+
+Edit /views/sidebar.jade to edit the contents of the sidebar.
+
+### Deploy Bitters
+
+You'll need a vps with Node.js installed to deploy Bitters. We recommend [Digital Ocean](https://www.digitalocean.com/?refcode=26d8ed49730d) (rewards link)
