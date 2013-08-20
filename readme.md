@@ -24,9 +24,13 @@ Navigate to [http://localhost:7777/](http://localhost:7777/) to see your bitters
 
 Bitters uses Git to maintain content.
 
-Edit the readme.md file to change the contents of the main content frame. 
+To change the contents of the main frame
 
-Edit /views/sidebar.jade to edit the contents of the sidebar.
+	$ vim readme.md 
+
+To change the contents of the sidebar
+
+	$ vim sidebar.jade
 
 ### Deploy Bitters
 
@@ -36,20 +40,19 @@ You'll need a VPS with Node.js installed to deploy Bitters. We recommend [Digita
 
 Our aim is to keep the Bitters core small, while implementing the features we believe are important to bringing Bitters to more people.
 
-If you'd like to hack on Bitters keep in mind the following development goals. We will merge your pull request if it furthers these goals. Bug fixes are of course always welcome.
-
-Chat with the dev team at #bitters on irc.freenode.net
+If you'd like to hack on Bitters keep in mind the following development goals. We will merge your pull request if it furthers these goals. Bug fixes are always welcome.
 
 1. Implement Leveldb on the backend (using levelup/leveldown)
 2. User authentication (passport.js?)
 3. Front-end editable (like Zenpen)
 
+Chat with the dev team at #bitters on irc.freenode.net
+
 ### Contribute to Bitters development
 
 The best way to support Bitters development is to buy the development team tacos.
 
-<button>Buy Ev Bogue Tacos</button>
-<button>Buy Gwen Bell Tacos</button> 
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=559FYH7NGSMKC"><button>Contribute to Bitters</button></a>
 
 Your contribution of $99 supports local Oakland taco trucks for one week.
 Your contribution of $299 supports local Oakland taquerias for one month.
