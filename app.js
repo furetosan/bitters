@@ -30,6 +30,9 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
+app.get('/login', routes.login);
+app.get('/about', routes.about);
+app.get('/aluno', routes.aluno);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Bitters is listening on port ' + app.get('port'));
