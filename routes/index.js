@@ -18,3 +18,4 @@ exports.about = function(req, res){
 exports.aluno = function(req, res){
   res.render('aluno', { title: 'Alunos'});
 };
+
