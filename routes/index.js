@@ -8,7 +8,7 @@ exports.index = function(req, res){
 };
 
 exports.login = function(req, res){
-  res.render('login', { title: 'Login' });
+  res.render('login', { title: 'Login', content: about.md });
 };
 
 exports.about = function(req, res){
