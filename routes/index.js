@@ -4,7 +4,12 @@
  */
 
 exports.index = function(req, res){
-  res.render('index', { title: 'FFB Engenharia, Tecnologia e Design' });
+  console.log('Routes are running and I\'m index route!');
+  if(req.lang == 'English')
+  {
+    res.render('index', { title: 'ffb.eng.br' });
+    console.log('This is index route, and I\'m ffb.eng.br');
+  }
 };
 
 exports.login = function(req, res){
@@ -18,4 +23,3 @@ exports.about = function(req, res){
 exports.aluno = function(req, res){
   res.render('aluno', { title: 'Alunos'});
 };
-
