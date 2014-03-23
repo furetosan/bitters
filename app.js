@@ -30,12 +30,8 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
-app.get('/login', routes.login);
-app.get('/about', routes.about);
 app.get('/aluno', routes.aluno);
-app.get('*', function(req,res){
-  res.render('index', { title: 'Error 404' } ); 
-});
+app.get('*', routes.error404);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Bitters is listening on port ' + app.get('port'));

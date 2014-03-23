@@ -9,8 +9,6 @@ Quanto a esta página, declaro algumas intenções:
 
 **2** 2Do: Operacionalizar um sistema que abranja, ao menos, todo o Brasil, e que permita que outros professores ou estudantes possam - mediante pagamento ou não - engajar-se na produção de saberes e conhecimentos técnicos. Objetivo: uma mini-startup confiável e sustentável.
 
-The main motivation is to slice so-called work into pieces irrecognizable enough so that people - i.e. myself - won't mind taking them on just for fun.
-
 ### Materiais de Construção Civil
 
 Materiais para a disciplina de Materiais de Construção Civil:
@@ -41,7 +39,7 @@ Materiais para alunos da disciplina de Tópicos Especiais:
 
 [Dimensionamento_DNER.pdf]Dimensionamento de Pavimento pelo Método do CBR
 
-### Curso Independente de Python para usos científicos
+### Tutorial de Instalação do Bitters
 
 **1** install [Node.js](http://nodejs.org/)
 

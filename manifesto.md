@@ -1,11 +1,11 @@
 Bitter Engineering
 ============
 
-Bitter engineering is the website I've put together in a hurry, to respond properly to all those people Googling and desperately trying to find any bit of information.
+Bitter engineering is this website: one I've put together in a hurry, to respond properly to all those people Googling me out there.
 
 > Because small, incremental steps are evolution's own doing.
 
-This web framework consists of Bitters, which uses Express, Jade, Stylus, and Embittered to render a beautiful self-hosted opensource blogging platform for you (and in the future, your non-programmy friends). And it was developed by [Everett Bogue](http://evbogue.com). Thanks.
+This web framework consists of Bitters, which uses Express, Jade, Stylus, and Embittered to render a beautiful self-hosted opensource blogging platform for you (and in the future, your non-programmy friends). And it was created and initially developed by [Everett Bogue](http://evbogue.com). Thanks.
 
 ### Students
 
@@ -33,7 +33,7 @@ Our aim is to keep the Bitters core small, while implementing the features we be
 
 Chat with the dev team at #bitters on irc.freenode.net
 
-Our next development goal is to **add a front-end editable compose window and a backend database**. We're investigating database options and LevelDB is looking like the best candidate. 
+Our next development goal is to **add a front-end editable compose window and a backend database**. We're investigating database options and CouchDB is looking like the best candidate. 
 
 There are two ways you can help the above come into the world.
 
